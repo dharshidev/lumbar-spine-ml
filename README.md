@@ -62,3 +62,11 @@ Tools and Libraries
 Author
 
 Devadharshini S
+
+## Results and Visualizations
+
+### K-Means Clustering
+![K-Means Clustering](Outputs/kmeans_clusters.png)
+
+### Agglomerative Clustering
+![Agglomerative Clustering](Outputs/agglomerative_clusters.png)
