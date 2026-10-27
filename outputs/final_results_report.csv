@@ -1,0 +1,8 @@
+Metric,Result
+Total MRI volumes,1237.0
+Source datasets,4.0
+Features used,5.0
+K-Means clusters,5.0
+Agglomerative clusters,5.0
+K-Means silhouette score,0.5474
+Agglomerative silhouette score,0.5457

@@ -1,0 +1,3 @@
+Algorithm,Number_of_Clusters,Silhouette_Score,Number_of_MRI_Volumes
+K-Means,5,0.5473908179699234,1237
+Agglomerative Clustering,5,0.5456955612390458,1237

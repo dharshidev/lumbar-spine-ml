@@ -1,0 +1,9 @@
+Item,Details
+Project Name,Lumbar Spine MRI Clustering
+Dataset,Combined MRI volume dataset
+Total MRI Volumes,1237
+Number of Source Folders,4
+Features Used,"mean_intensity, std_intensity, median_intensity, nonzero_ratio, n_slices"
+Number of Clusters,5
+K-Means Silhouette Score,0.5474
+Agglomerative Silhouette Score,0.5457
