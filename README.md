@@ -1,45 +1,64 @@
-# lumbar-spine-ml
-machine learning project for analysing lumbar spine data using clistering techniques.
-# Predicting Lumbar Spine Levels Using Machine Learning Algorithms
+Lumbar Spine MRI Clustering Using Machine Learning
 
-# Project Overview
+Project Overview
 
-This academic project focuses on analysing lumbar spine data using machine learning techniques to explore patterns across spinal levels.
+This project explores unsupervised machine learning techniques to group lumbar spine MRI volumes based on numerical image features.
 
-# Objectives
+Dataset
 
-* Analyse the lumbar spine dataset.
-* Explore patterns and relationships within the data.
-* Apply K-Means and Agglomerative Clustering to identify groups in the dataset.
-* Visualise and interpret clustering results.
+The combined dataset contains 1,237 MRI volumes from four source folders:
 
-# Technologies and Techniques
+* processed_lsd: 515 volumes
+* processed_osf: 34 volumes
+* processed_spider: 210 volumes
+* processed_tseg: 478 volumes
 
-* Programming Language: Python
-* Machine Learning: K-Means Clustering, Agglomerative Clustering
-* Data Analysis: Data exploration and preprocessing
-* Data Visualisation: Cluster visualisation and result interpretation
+Features Used
 
-# Methodology
+* Mean intensity
+* Standard deviation of intensity
+* Median intensity
+* Nonzero voxel ratio
+* Number of slices
 
-1. Explore and understand the lumbar spine dataset.
-2. Prepare the data for clustering analysis.
-3. Apply K-Means Clustering to identify groups in the dataset.
-4. Apply Agglomerative Clustering to explore hierarchical groupings.
-5. Analyse and compare the clustering results using appropriate evaluation metrics and visualisations.
+The features were standardized before clustering.
 
-# Results and Evaluation
+Machine Learning Algorithms
 
-The results of K-Means and Agglomerative Clustering will be evaluated to understand the patterns identified in the lumbar spine dataset.
+1. K-Means Clustering
+2. Agglomerative Clustering
 
-Evaluation metrics, visualisations, and key findings will be added after the project code has been reconstructed and tested.
+Both algorithms were configured to create five clusters.
 
-# Project Status
+Results
 
-The project documentation is being prepared. The original source code is currently unavailable and will be reconstructed and tested before the final implementation and results are documented.
+Algorithm	        Silhouette Score
+K-Means                 	0.5474
+Agglomerative Clustering	0.5457
 
-# Author
+PCA was used to visualize the cluster assignments in two dimensions.
+
+Project Outputs
+
+* Combined clustering results
+* Cluster summaries
+* Evaluation scores
+* PCA cluster visualizations
+* Project summary and report
+
+Limitations
+
+The clusters represent similarities in the selected image features and are not confirmed medical diagnoses. Differences between the source datasets may influence the clustering results. Further validation is required before making clinical claims.
+
+Tools and Libraries
+
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+* Matplotlib
+* Jupyter Notebook
+
+Author
 
 Devadharshini S
-
-MSc Data Science Graduate
