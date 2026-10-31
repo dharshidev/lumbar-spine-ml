@@ -66,7 +66,7 @@ Devadharshini S
 ## Results and Visualizations
 
 ### K-Means Clustering
-![K-Means Clustering](Outputs/kmeans_clusters.png)
+![K-Means Clustering](outputs/kmeans_clusters.png)
 
 ### Agglomerative Clustering
-![Agglomerative Clustering](Outputs/agglomerative_clusters.png)
+![Agglomerative Clustering](outputs/agglomerative_clusters.png)
